@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 20px;
+    box-shadow: 5px 10px #888888;
+
+}
+.cell:hover{
+border-radius: 12px;
+}
